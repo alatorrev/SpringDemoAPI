@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EnableJpaRepositories("com.example.go.ToGo.Repositories")
 @SpringBootApplication
-@EnableJpaAuditing
+//@EnableJpaAuditing
 @ComponentScan(basePackages = "com.example.go.ToGo")
 public class ToGoApplication {
 

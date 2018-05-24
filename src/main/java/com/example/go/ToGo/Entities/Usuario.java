@@ -28,7 +28,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
  */
 @Entity
 @Table(name = "Usuario")
-@EntityListeners(AuditingEntityListener.class)
+//@EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"createdAt", "updatedAt"},
         allowGetters = true)
 public class Usuario implements Serializable {
